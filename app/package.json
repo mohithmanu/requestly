@@ -33,7 +33,7 @@
     "preview:emulator": "npm run build:emulator && vite preview --port 3000",
     "dev": "concurrently --kill-others --names \"@requestly/shared, @requestly/app\" \"cd ../shared && npm run watch\" \"vite\"",
     "dev:emulator": "concurrently --kill-others --names \"@requestly/shared, @requestly/app\" \"cd ../shared && npm run watch\" \"vite --mode dev-emulator\"",
-    "start": "concurrently --kill-others --names \"@requestly/shared, @requestly/app\" \"cd ../shared && npm run watch\" \"vite\"",
+    "start": "concurrently --kill-others --names \"@requestly/shared, @requestly/app\" \"cd ../shared && npm run watch\" \"vite --host\"",
     "start:emulator": "concurrently --kill-others --names \"@requestly/shared, @requestly/app\" \"cd ../shared && npm run watch\" \"vite --mode dev-emulator\"",
     "//": "****Deprecated****",
     "emulated-dev": "concurrently --kill-others --names \"@requestly/shared, @requestly/app\" \"cd ../shared && npm run watch\" \"vite --mode dev-emulator\"",
