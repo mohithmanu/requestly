@@ -3,7 +3,7 @@
   <head>
     <script>
       if (
-        window.location.hostname !== "app.requestly.io" &&
+        window.location.hostname !== "requestly.mohith.dev" &&
         window.location.hostname !== "app.requestly.com" &&
         window.location.hostname !== "beta.requestly.io" &&
         window.location.hostname !== "app.beta.requestly.com" &&
@@ -13,7 +13,7 @@
         !window.location.hostname.startsWith("requestly-dev") &&
         isNaN(parseInt(window.location.hostname.replace(/\./g, ""))) // dumb check for an IP (or any number really)
       ) {
-        window.location.href = "https://app.requestly.io";
+        window.location.href = "https://requestly.mohith.dev";
       }
 
       const deviceId = localStorage.getItem("__amplitude_deviceId");
@@ -27,7 +27,7 @@
       const isHeadless =
         window.navigator.webdriver === true || /HeadlessChrome/.test(window.navigator.userAgent) === true;
 
-      if (!isHeadless && "https://app.requestly.io/goodbye/" === window.location.href && deviceId) {
+      if (!isHeadless && "https://requestly.mohith.dev/goodbye/" === window.location.href && deviceId) {
         const a = { api_key: "6d37003f0cdb1921422bc474c634c135", events: [eventObject], user_properties: attributes };
         const b = new Blob([JSON.stringify(a)]);
         navigator.sendBeacon("https://api2.amplitude.com/2/httpapi", b);

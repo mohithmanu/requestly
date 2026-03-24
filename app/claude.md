@@ -1,5 +1,5 @@
 This is a React app that contains the UI code for Requestly. The same codebase runs in three different contexts:
-- **Web browser** at https://app.requestly.io
+- **Web browser** at https://requestly.mohith.dev
 - **Desktop app** (loaded inside Electron from `../../requestly-desktop-app`)
 - **Browser extension** popup/options pages
 

@@ -4,7 +4,7 @@ This repo contains the client-side code for the Requestly app - a developer tool
 
 ## `app/` - React Web Application
 The main React application that provides the UI for Requestly. This code runs in:
-- Web browser (https://app.requestly.io)
+- Web browser (https://requestly.mohith.dev)
 - Desktop app (loaded inside Electron from `../requestly-desktop-app`)
 - Browser extension popup/options pages
 

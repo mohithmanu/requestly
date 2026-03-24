@@ -2,7 +2,7 @@
   function redirectToRulesPage() {
     var newUrl = window.location.href.replace(
       "www.requestly.in/rules",
-      "app.requestly.io/rules"
+      "requestly.mohith.dev/rules"
     );
 
     if (newUrl !== window.location.href) {
@@ -13,7 +13,7 @@
   function redirectToLibraryPage() {
     var newUrl = window.location.href.replace(
       "www.requestly.in/library",
-      "app.requestly.io/library"
+      "requestly.mohith.dev/library"
     );
 
     if (newUrl !== window.location.href) {

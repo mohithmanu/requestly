@@ -28,7 +28,7 @@ body:
     attributes:
       label: Repro steps
       description: |
-        What were you doing when this bug happened? Tip: You can attach Requestly Session Recordings https://app.requestly.io/sessions also.
+        What were you doing when this bug happened? Tip: You can attach Requestly Session Recordings https://requestly.mohith.dev/sessions also.
       placeholder: |
         Example Repro steps:
         1. Open the Requestly app
