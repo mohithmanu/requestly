@@ -11,4 +11,4 @@ RUN  ./build.sh local
 
 EXPOSE 3000
 
-CMD ["npm", "run", "preview", "--prefix", "app", "--", "--host"]
+CMD ["npm", "run", "start", "--prefix", "app", "--", "--host"]
