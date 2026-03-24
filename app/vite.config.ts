@@ -108,7 +108,7 @@ const config = async ({ mode }) => {
       fs: {
         allow: [".."],
       },
-      allowedHosts: 'all'
+      allowedHosts: ['requestly.mohith.dev'],
     },
   });
 };
