@@ -108,6 +108,7 @@ const config = async ({ mode }) => {
       fs: {
         allow: [".."],
       },
+      allowedHosts: 'all'
     },
   });
 };
